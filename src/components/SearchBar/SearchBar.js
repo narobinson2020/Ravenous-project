@@ -50,8 +50,16 @@ getSortByClass(sortByOption) {
 
 renderSortByOptions() {
   return Object.keys(this.sortByOptions).map(sortByOption => {
+
     let sortByOptionValue = this.sortByOptions[sortByOption];
-    return <li key={sortByOptionValue} className={getSortByClass(sortByOptionValue)} onClick={handleSortByChange.bind(this, sortByOptionValue)} >{sortByOption}</li>;
+
+    return <li className={this.getSortByClass(sortByOptionValue)}
+    key={sortByOptionValue}
+
+    onClick={this.handleSortByChange.bind(this, sortByOptionValue)}>
+  {sortByOption}
+  
+</li>;
   });
 }
 
