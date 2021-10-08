@@ -1,0 +1,3 @@
+const theKey = 'doymx5YiguvCN9BImPf4Xc091ls3ufBJAIS9GM75X8mLBkAiTF_mX-mLVUy4pzxNywlrPuXdv9AHwFj-n9W8DN4K0hV3dED7HnAvjVHm4Bgbr4meI23YLshXcyStYHYx';
+
+export default theKey;
